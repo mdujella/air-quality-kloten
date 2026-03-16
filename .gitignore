@@ -1,0 +1,15 @@
+# Ignore data files
+Data/
+
+# Ignore virtual environment directories
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore models directory
+models/
