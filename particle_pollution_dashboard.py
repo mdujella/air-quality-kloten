@@ -53,6 +53,7 @@ def render_content(tab):
 This project explores air pollution patterns in Kloten using 10-minute interval environmental data from 2020 to 2023.
 
 Using data from https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2383@awel-kanton-zuerich
+
 (previously at https://www.zh.ch/de/umwelt-tiere/luft-strahlung/luftqualitaet-auswirkungen.html)
 
 **Main goals:**
