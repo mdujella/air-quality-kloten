@@ -13,11 +13,11 @@ dark_color = 'navy'
 accent_color = 'orange'
 
 # Load preprocessed dataframe
-path_df_cleaned = 'Data/meteo_pivoted_cleaned.parquet'
+path_df_cleaned = 'app_data/meteo_pivoted_cleaned.parquet'
 df = pd.read_parquet(path_df_cleaned)
 
 # Load original df
-path_df_original = 'Data/meteo_pivoted_original.parquet'
+path_df_original = 'app_data/meteo_pivoted_original.parquet'
 df_original = pd.read_parquet(path_df_original)
 
 pollutants = ['PM2.5', 'NOx', 'NO2', 'NO', 'eBC2.5', 'PN[5-100nm]', 'SO2', 'CO2']
